@@ -1,6 +1,7 @@
 name: Attach Issue Link
 
 on:
+  workflow_call:
   pull_request:
     branches: [ main ]
     
